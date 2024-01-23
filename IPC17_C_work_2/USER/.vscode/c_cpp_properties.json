@@ -3,6 +3,7 @@
         {
             "name": "Template",
             "includePath": [
+<<<<<<< HEAD
                 "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\IPC17_C_WORK_2\\CORE",
                 "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\IPC17_C_WORK_2\\SYSTEM\\delay",
                 "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\IPC17_C_WORK_2\\SYSTEM\\sys",
@@ -16,6 +17,21 @@
                 "E:\\Keil_v5\\ARM\\ARMCC\\include",
                 "E:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
                 "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\IPC17_C_WORK_2\\FWLIB\\src"
+=======
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_C_work_2\\CORE",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_C_work_2\\SYSTEM\\delay",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_C_work_2\\SYSTEM\\sys",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_C_work_2\\SYSTEM\\usart",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_C_work_2\\USER",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_C_work_2\\FWLIB\\inc",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_C_work_2\\HARDWARE",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_C_work_2\\HARDWARE\\OLED",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_C_work_2\\HARDWARE\\IIC",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_C_work_2\\U8G2",
+                "E:\\Keil_v5\\ARM\\ARMCC\\include",
+                "E:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_C_work_2\\FWLIB\\src"
+>>>>>>> 76e7c77 (ipcwork_1_23)
             ],
             "defines": [
                 "STM32F40_41xxx",

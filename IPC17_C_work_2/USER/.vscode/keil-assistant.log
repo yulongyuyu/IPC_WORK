@@ -18,3 +18,18 @@
 [info] Log at : 2024/1/30|20:11:35|GMT+0800
 
 >>>>>>> 5b88b53 (work2_1_30)
+[info] Log at : 2024/1/30|21:06:28|GMT+0800
+
+[SyntaxError: Unexpected token '<', ..."Path": [
+<<<<<<< HE"... is not valid JSON
+	at JSON.parse (<anonymous>)
+	at F.updateCppProperties (c:\Users\jixiegeming4060\.vscode\extensions\cl.keil-assistant-1.7.0\dist\extension.js:1:10911)
+	at F.<anonymous> (c:\Users\jixiegeming4060\.vscode\extensions\cl.keil-assistant-1.7.0\dist\extension.js:1:12641)
+	at Generator.next (<anonymous>)
+	at c:\Users\jixiegeming4060\.vscode\extensions\cl.keil-assistant-1.7.0\dist\extension.js:1:4542
+	at new Promise (<anonymous>)
+	at r (c:\Users\jixiegeming4060\.vscode\extensions\cl.keil-assistant-1.7.0\dist\extension.js:1:4287)
+	at F.load (c:\Users\jixiegeming4060\.vscode\extensions\cl.keil-assistant-1.7.0\dist\extension.js:1:11372)
+	at w.<anonymous> (c:\Users\jixiegeming4060\.vscode\extensions\cl.keil-assistant-1.7.0\dist\extension.js:1:8799)
+	at Generator.next (<anonymous>)
+	at a (c:\Users\jixiegeming4060\.vscode\extensions\cl.keil-assistant-1.7.0\dist\extension.js:1:4344)]

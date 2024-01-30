@@ -14,6 +14,6 @@ typedef struct Clock {
 } Clock;
 
 Clock CreateClock(void);
-extern Clock *myClock;
+extern Clock *myClock;//将全局变量引用到引用文件
 
 #endif

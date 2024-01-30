@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "limits": "c",
-        "oled.h": "c"
+        "oled.h": "c",
+        "stm32f4xx.h": "c"
     }
 }

@@ -14,13 +14,12 @@ void TIM3_IRQHandler(void) {
         TIM_ClearITPendingBit(TIM3, TIM_IT_Update);
     }
 }
-
 int main(void) {
     TIM3_Init(10000, PSC); // 84000000/8400/10000
     OLED_Init();
 
     Clock myClockInstance = CreateClock();
-    myClock = &myClockInstance; //不知道怎么改如果 不加全局变量的话定时器中的myClock->increment(myClock);怎么都会报错
+    myClock = &myClockInstance; //不知道怎么改,发现如果不加全局变量的话定时器中的myClock->increment(myClock);怎么都会报错
 
     while (1) {
         myClock->show(myClock);

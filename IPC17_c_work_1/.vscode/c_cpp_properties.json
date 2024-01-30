@@ -3,14 +3,14 @@
         {
             "name": "Target 1",
             "includePath": [
-                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\IPC17_C_WORK_2\\.git\\ipc17_c_work\\IPC17_c_work_1\\LIB\\inc",
-                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\IPC17_C_WORK_2\\.git\\ipc17_c_work\\IPC17_c_work_1\\LIB\\src",
-                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\IPC17_C_WORK_2\\.git\\ipc17_c_work\\IPC17_c_work_1\\USER",
-                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\IPC17_C_WORK_2\\.git\\ipc17_c_work\\IPC17_c_work_1\\CORE",
-                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\IPC17_C_WORK_2\\.git\\ipc17_c_work\\IPC17_c_work_1\\SYSTEM",
-                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\IPC17_C_WORK_2\\.git\\ipc17_c_work\\IPC17_c_work_1\\HARDWARE\\IIC",
-                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\IPC17_C_WORK_2\\.git\\ipc17_c_work\\IPC17_c_work_1\\HARDWARE\\LED",
-                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\IPC17_C_WORK_2\\.git\\ipc17_c_work\\IPC17_c_work_1\\HARDWARE\\OLED",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_c_work_1\\LIB\\inc",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_c_work_1\\LIB\\src",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_c_work_1\\USER",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_c_work_1\\CORE",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_c_work_1\\SYSTEM",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_c_work_1\\HARDWARE\\IIC",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_c_work_1\\HARDWARE\\LED",
+                "e:\\MY_STM32_STUDY\\IPC17_STUDY_32F407VET6\\IPC_WORK\\ipc17__work\\IPC17_c_work_1\\HARDWARE\\OLED",
                 "E:\\Keil_v5\\ARM\\ARMCC\\include",
                 "E:\\Keil_v5\\ARM\\ARMCC\\include\\rw"
             ],

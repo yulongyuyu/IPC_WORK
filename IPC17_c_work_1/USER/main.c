@@ -73,17 +73,17 @@ int main(void){
     for(int i=0;i<3;++i){
         led->set_level(led, i, LED_HIGH_LEVEL);
 //        led->read_level(led,i, &led_level);
-        OLED_ShowNum(2,1,led_level);
+//      OLED_ShowNum(2,1,led_level);
         delay_ms(1000);
         led->set_level(led, i, LED_LOW_LEVEL);
 //        led->read_level(led,i, &led_level);
-        OLED_ShowNum(2,1,led_level);
+//        OLED_ShowNum(2,1,led_level);
         delay_ms(1000);
     }
     for(int i=0;i<0x08;++i){
         led->set_level_arr(led,i);
 //        led->read_level_arr(led, &led_levels);
-        OLED_ShowBinNum(3,1,led_levels,8);
+//        OLED_ShowBinNum(3,1,led_levels,8);
         delay_ms(1000);
     }
   

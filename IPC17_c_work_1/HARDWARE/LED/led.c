@@ -6,15 +6,11 @@
     void led_set_level(pLED_Class pthis, const int led_n, const led_bit led_level);
     void led_set_level_arr(pLED_Class pthis, const led_bits led_sta);
     
-    // void led_flip_level(const int led_n);
-    // void led_flip_level_arr(led_bits led_sta);
-
     void led_read_level(pLED_Class pthis, const int led_n, led_bit *led_level);
     void led_read_level_arr(pLED_Class pthis, led_bits* led_sta);
 	
 pLED_Class CreatLedClass(void){
     pLED_Class led_c= (pLED_Class )malloc(sizeof(LED_Class));
-    //assert(person != NULL);
     if(led_c == NULL){
         return NULL;
     }

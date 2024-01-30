@@ -19,12 +19,17 @@ typedef struct Clock {
 
 Clock *myClock;
 
+/*
+在oled上显示时间
+*/
 void OLED_ShowTime(Clock *time) {
     OLED_ShowNum(1, 1, time->hour);
     OLED_ShowNum(2, 2, time->min);
     OLED_ShowNum(3, 3, time->sec);
 }
-
+/*
+ 秒进分,分进时.
+*/
 void IncrementTime(Clock *time) {
     time->sec++;
     if (time->sec == 60) {
@@ -36,8 +41,10 @@ void IncrementTime(Clock *time) {
         time->min = 0;
     }
 }
-
-Clock CreateClock() {
+/*
+创建对象
+*/
+Clock CreateClock(){
     Clock clock;
     clock.sec = 0;
     clock.min = 0;
@@ -58,7 +65,8 @@ int main(void) {
     TIM3_Init(10000, PSC); // 84000000/8400/10000
     OLED_Init();
     Clock myClockInstance = CreateClock();
-    myClock = &myClockInstance;  
+    myClock = &myClockInstance; //不知道怎么改如果 不加全局变量的话定时器中的myClock->increment(myClock);怎么都会报错
+
     while (1) {
         myClock->show(myClock);
     }
